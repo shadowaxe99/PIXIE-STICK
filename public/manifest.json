@@ -1,16 +1,37 @@
 {
+  
+  // Short name represents a shortened version of the application name.
   "short_name": "Sketchpad Doodler",
+  
+  // Full name of the application.
   "name": "Sketchpad Doodler: Draw and Store Doodles",
+  
+  // Icons is an array of objects, each representing an image file. 'src' provides the URL of the image, 'sizes' provides sizes it should be displayed e.g.64x64.
   "icons": [
     {
+      // The URL path to the icons image
       "src": "/favicon.ico",
+      
+      // The space-separated list of dimensions of the image file
       "sizes": "64x64 32x32 24x24 16x16",
+      
+      // The MIME type of the image file
       "type": "image/x-icon"
     }
   ],
+  
+  // Start URL is the path that the browser navigates to when the application is started.
   "start_url": "/",
+  
+  // Background color is the value of splash screen's background color, which is a placeholder before the app is launched.
   "background_color": "#ffffff",
+  
+  // Display mode for the application. 'standalone' mode makes the app look like a standalone app.
   "display": "standalone",
+  
+  // Scope restricts what URLs the application can be navigated while it's running. In this case, only URLs on the same path will be included.
   "scope": "/",
+  
+  // The theme color of the application. It usually affects the title bar and task switcher.
   "theme_color": "#000000"
 }
