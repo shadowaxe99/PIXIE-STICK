@@ -1,5 +1,7 @@
 /* Global Styles */
 
+/* Setting base stylings for the body including no margin or padding, a default 
+   font, and a background color */
 body {
     margin: 0;
     padding: 0;
@@ -7,12 +9,16 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Setting up a container class with a max-width of 1200px and centered layout, and 
+   padding 20px along x-axis */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
+/* Styling for sketchpad class defined with 100% width of its parent, height fixed
+   at 500px, border, and a crosshair cursor */
 .sketchpad {
     width: 100%;
     height: 500px;
@@ -20,6 +26,9 @@ body {
     cursor: crosshair;
 }
 
+/* Setting doodleDisplay class to occupy full width of its parent, with a top 
+   margin of 20px. Also, utilizing flexbox to create a responsive layout with 
+   space between each item */
 .doodleDisplay {
     width: 100%;
     margin-top: 20px;
@@ -28,11 +37,15 @@ body {
     justify-content: space-between;
 }
 
+/* Defining the doodle class to take up one third of its container width (after 
+   considering 20px reduction), with a bottom margin of 20px */
 .doodle {
     width: calc(33.333% - 20px);
     margin-bottom: 20px;
 }
 
+/* Styling an errorDisplay class with red color font, used to notify an error 
+   situation, with a top margin of 20px */
 .errorDisplay {
     color: red;
     margin-top: 20px;
